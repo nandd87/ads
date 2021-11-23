@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Great+Vibes&family=Open+Sans:wght@300&family=PT+Sans+Narrow&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Great+Vibes&family=Open+Sans:wght@300&family=PT+Sans+Narrow&family=Raleway:wght@100&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)) , url(../desain/Asset/baju_ecommerce.jpg);
+    background-position: center ;
+    background-size: cover;
+    padding-bottom: 70px; 
+}
+
+.con{
+    max-width: 1300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 35px;
+    color: #fff;
+}
+
+.nav-menu a{
+    color: #fff;
+    font-size: 13px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding: 12px 15px;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+
+.nav-menu a:hover{
+    background-color: #fff ;
+    color: #000;
+
+}
+
+.desc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: #fff;
+    padding: 0 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.desc h2{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100 ;
+    color: #fff;
+    line-height: 50px;
+}
+
+.desc p{
+    font-size: 20px;
+    font-family: 'Raleway', serif;
+    font-weight: 100 ;
+    color: #fff;
+    line-height: 50px;
+}
+
+.desc h1{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;    
+    text-transform: uppercase;
+    font-weight: 700 ;
+    color: #fff;
+    line-height: 70px;
+}
+
+/*animasi tombol*/
+
+.desc button{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;   
+    font-weight: 700;
+    color: #fff;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.desc button:hover{
+    background: #fff;
+    color: black;
+}
+
+.footer1 {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px; 
+    background:#000;
+    font-family: 'Raleway', sans-serif;  
+}

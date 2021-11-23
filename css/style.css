@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans+Narrow&display=swap');
+
+body{
+   background-color: #f5f5f5;
+}
+
+.judul-text{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.textForm{
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+
+.textForm1{
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+
+.form-con{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 450px;
+    transform: translate(-50%,-50%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-hover{
+    text-decoration: none;
+
+}
+
+.text-hover:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
